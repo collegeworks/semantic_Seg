@@ -126,7 +126,7 @@ print(accur)
 def generate_image_from_pixels(pixels):
     img=[]
     for j in range(100):
-        for i in pixel:
+        for i in pixels:
 
              
             index=np.where(rgb_mean_labels==i)
